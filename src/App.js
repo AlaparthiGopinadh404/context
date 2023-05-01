@@ -1,25 +1,49 @@
-import logo from './logo.svg';
+// import React from 'react';
+// // import logo from './logo.svg';
+// import './App.css';
+// // import Context from './Context';
+// import Provider from './Provider';
+
+// function App() {
+//   return (
+//     <div className="App">
+//     <h1>USE CONTEXT HOOK</h1>
+//     {/* <Context/> */}
+//     <Provider/>
+//     </div>
+//   );
+// }
+
+// export default App;
+import React from "react";
 import './App.css';
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+// import Children from "./Children";
+import { useState } from "react";
+// import Search from "./Search";
+import Data from "./Data";
+import BlogList from "./BlogList";
+import Errorhandling from "./Errorhandling";
+// import Dataindex from "./Dataindex";
+function App(){
+  // const [Todos,UpdateTodos]=useState([
+  //   'Task1',
+  //   'Task2'
+ 
+  // ])
+  // const addNew =(task)=>{
+  //   UpdateTodos([...Todos,task ])
+  // }
+  
+  return(
+    <>
+      
+      
+      {/* <Data/> */}
+      <Errorhandling/>
+      {/* <BlogList/> */}
+      {/* <Dataindex/> */}
+     
+    </>
+  )
 }
-
-export default App;
+export default App ;
